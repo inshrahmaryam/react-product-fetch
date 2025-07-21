@@ -1,6 +1,19 @@
 {
+  "name": "react-product-fetch",
+  "version": "1.0.0",
+  "homepage": "https://inshrahmaryam.github.io/react-product-fetch",
   "dependencies": {
     "bootstrap": "^5.3.7",
     "react-router-dom": "^7.7.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "scripts": {
+    "dev": "vite",                     // if you're using Vite
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   }
 }
