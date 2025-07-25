@@ -1,4 +1,5 @@
 🛍️ React Product Fetch
+
 A simple React app that fetches live product data from the FakeStoreAPI. It supports real-time search, dynamic routing, and individual product detail views — all with a responsive design.
 
 🚀 Features
